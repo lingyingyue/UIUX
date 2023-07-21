@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>練習</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const ulElement = document.querySelector("ul");
+        const mobileMenuCheckbox = document.getElementById("mobile-menu");
+
+        mobileMenuCheckbox.addEventListener("change", function () {
+          if (this.checked) {
+            ulElement.classList.remove("hidden");
+          } else {
+            ulElement.classList.add("hidden");
+          }
+        });
+      });
+    </script> -->
+</head>
+
+<body>
+    <header>
+        <div class="text-8xl h-screen w-full font-bold text-white absolute flex flex-col justify-center items-center">
+            <h1 class="text-center">Welcome to my Website</h1>
+            <p class="text-center">ppppppppp</p>
+        </div>
+        <nav class=" w-full h-[50px] text-white flex justify-between items-center fixed ">
+            <div class="m-6">logo</div>
+            <ul class="hidden lg:flex justify-center items-center gap-4 m-8">
+                <li><a class="text-white hover:text-slate-700 px-3 py-2 text-center" href="#" target="_blank">關於我們</a>
+                </li>
+                <li><a class="text-white hover:text-slate-700 px-3 py-2 text-center" href="#" target="_blank">首頁</a>
+                </li>
+                <li><a class="text-white hover:text-slate-700 px-3 py-2 text-center" href="#" target="_blank">內容</a>
+                </li>
+                <li><a class="text-white hover:text-slate-700 px-3 py-2 text-center" href="#" target="_blank">說明</a>
+                </li>
+            </ul>
+            <label for="mobile-menu"
+                class=" relative w-12 h-12 bg-white rounded-full flex lg:hidden flex-col justify-center items-center cursor-pointer overflow-hidden gap-1 m-4">
+                <input class="peer hidden" type="checkbox" id="mobile-menu">
+                <div class="w-7 h-1 bg-slate-600 peer-checked:rotate-45 peer-checked:translate-y-2 duration-200"></div>
+                <div class="w-7 h-1 bg-slate-600 peer-checked:translate-x-10 duration-200"></div>
+                <div class="w-7 h-1 bg-slate-600 peer-checked:-rotate-45 peer-checked:-translate-y-2 duration-200"></div>
+                </div>
+            </label>
+        </nav>
+    </header>
+    <img class="w-full h-screen" src="banner.jpg" alt="">
+
+
+</body>
+
+</html>

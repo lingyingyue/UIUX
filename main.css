@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.list_first{
+    width: 21vw;
+    height: 29.7vw;
+}
+.list:not(.first){
+    display: flex;
+    flex-direction: column;
+    text-align: center
+    flex:1
+}
+
+.item_top img{
+    width: 100%;
+    text-align: center;
+    flex: 1;
+}
+.item_top{
+    border-bottom: 1px solid red;
+}
+.item{
+    width: 80%;
+};
+.item img{
+    width: 100%;
+    height: auto;
+}
+    
