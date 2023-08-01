@@ -1,0 +1,27 @@
+body {
+  background-color: #601010;
+}
+body h1 {
+  background-color: burlywood;
+}
+
+.container-full {
+  color: bisque;
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: aqua;
+  }
+  .container-full {
+    color: black;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-color: blueviolet;
+  }
+  .container-full {
+    color: rgb(255, 202, 136);
+  }
+}/*# sourceMappingURL=main.css.map */
